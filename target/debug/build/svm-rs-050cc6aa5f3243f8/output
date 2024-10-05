@@ -1,0 +1,7 @@
+cargo:rustc-env=VERGEN_BUILD_DATE=2024-10-05
+cargo:rustc-env=VERGEN_GIT_SHA=77a2b3b
+cargo:rerun-if-changed=/Users/user/.git/HEAD
+cargo:rerun-if-changed=/Users/user/.git/refs/heads/merkle-tree
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-env-changed=VERGEN_IDEMPOTENT
+cargo:rerun-if-env-changed=SOURCE_DATE_EPOCH
